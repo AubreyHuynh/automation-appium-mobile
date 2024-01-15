@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/
+!/src/Lesson_02/Topic_03_Operator_Learning.java
