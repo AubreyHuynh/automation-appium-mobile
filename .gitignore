@@ -29,3 +29,4 @@ bin/
 .DS_Store
 /.idea/
 !/src/Lesson_02/Topic_03_Operator_Learning.java
+!/src/Labs/lab_3/Lab_03_04.java
