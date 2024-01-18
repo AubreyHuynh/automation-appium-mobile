@@ -1,4 +1,4 @@
-package Lesson_02;
+package Java.Lesson.Lesson_02;
 
 public class Topic_04_Prefix_Postfix {
 

@@ -1,4 +1,4 @@
-package Lesson_01;
+package Java.Lesson.Lesson_01;
 
 public class Topic_01_Hello_World {
 

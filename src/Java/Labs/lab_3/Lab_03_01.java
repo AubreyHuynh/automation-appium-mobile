@@ -1,4 +1,4 @@
-package Labs.lab_3;
+package Java.Labs.lab_3;
 
 public class Lab_03_01 {
 

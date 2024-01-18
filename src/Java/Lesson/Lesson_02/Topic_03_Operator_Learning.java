@@ -1,4 +1,4 @@
-package Lesson_02;
+package Java.Lesson.Lesson_02;
 
 public class Topic_03_Operator_Learning {
     public static void main(String[] args) {

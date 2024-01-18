@@ -1,4 +1,4 @@
-package Lesson_03;
+package Java.Lesson.Lesson_03;
 
 public class Topic_12_Array {
 
