@@ -2,7 +2,7 @@ package Java.Lesson.Lesson_02;
 
 import java.util.Scanner;
 
-public class Topic_05_If_Else {
+public class Topic_05_IfElse {
 
     public static void main(String[] args) {
 

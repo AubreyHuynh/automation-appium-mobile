@@ -1,6 +1,6 @@
 package Java.Lesson.Lesson_02;
 
-public class Topic_03_Operator_Learning {
+public class Topic_03_Operator {
     public static void main(String[] args) {
         int myNum1 = 1;
         int myNum2 = 2;

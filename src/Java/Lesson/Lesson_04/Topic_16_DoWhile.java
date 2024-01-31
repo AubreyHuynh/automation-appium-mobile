@@ -3,7 +3,7 @@ package Java.Lesson.Lesson_04;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class Topic_16_Do_While {
+public class Topic_16_DoWhile {
     public static void main(String[] args) {
 
         // Số lần thực thi ít nhất 1 lần

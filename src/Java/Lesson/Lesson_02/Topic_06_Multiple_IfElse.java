@@ -2,7 +2,7 @@ package Java.Lesson.Lesson_02;
 
 import java.util.Scanner;
 
-public class Topic_06_Multiple_If_Else {
+public class Topic_06_Multiple_IfElse {
 
     public static void main(String[] args) {
         // <18 | 18 -55 | > 55

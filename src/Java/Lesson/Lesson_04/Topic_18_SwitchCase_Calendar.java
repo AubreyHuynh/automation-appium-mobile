@@ -2,24 +2,26 @@ package Java.Lesson.Lesson_04;
 
 import java.util.Scanner;
 
-public class Topic_17_Switch_Case {
+public class Topic_18_SwitchCase_Calendar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please input a number: ");
         int userNum = scanner.nextInt();
 
         switch (userNum) {
-            case 1:
-                System.out.println("Giai nhat!");
-                break;
             case 2:
-                System.out.println("Giai nhi!");
-                break;
             case 3:
-                System.out.println("Giai ba!");
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Weekdays");
+                break;
+            case 7:
+            case 8:
+                System.out.println("Weekends");
                 break;
             default:
-                System.out.println("Giai phong trao!");
+                System.out.println("Nhap sai roi");
         }
     }
 }

@@ -3,7 +3,7 @@ package Java.Lesson.Lesson_03;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class Topic_14_Simple_Menu {
+public class Topic_14_SimpleMenu {
     public static void main(String[] args) {
         boolean isCounting = true;
         while (isCounting) {

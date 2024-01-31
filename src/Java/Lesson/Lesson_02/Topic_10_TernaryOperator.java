@@ -2,7 +2,7 @@ package Java.Lesson.Lesson_02;
 
 import java.util.Scanner;
 
-public class Topic_10_Ternary_Operator {
+public class Topic_10_TernaryOperator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

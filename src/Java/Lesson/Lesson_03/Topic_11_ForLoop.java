@@ -1,6 +1,6 @@
 package Java.Lesson.Lesson_03;
 
-public class Topic_11_For_Loop {
+public class Topic_11_ForLoop {
     public static void main(String[] args) {
 
         int start = 0;
