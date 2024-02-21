@@ -1,8 +1,8 @@
-package Java.Labs.lab_6;
+import java.util.regex.*;
 
 public class Lab_06_04 {
     public static void main(String[] args) {
-        String url = "https://google.com";
+        String url = "https://google.net";
         analyzeURL(url);
     }
 
@@ -20,7 +20,14 @@ public class Lab_06_04 {
         // Extract domain name
         int startIndex = url.indexOf("://") + 3;
         int endIndex = url.indexOf(".", startIndex);
+
+        // Validate domain format
         String domainName = url.substring(startIndex, endIndex);
+        if (!isValidDomain(domainName)) {
+            System.out.println("Invalid domain format.");
+            return;
+        }
+
         System.out.println("Domain Name: " + domainName);
 
         // Check if the URL ends with ".com" or ".net"
@@ -31,5 +38,13 @@ public class Lab_06_04 {
         } else {
             System.out.println("Unsupported top-level domain.");
         }
+    }
+
+    // Function to validate domain format
+    public static boolean isValidDomain(String domain) {
+        String domainPattern = "^[a-zA-Z0-9-\\.]+$"; // Regex pattern for domain validation
+        Pattern pattern = Pattern.compile(domainPattern);
+        Matcher matcher = pattern.matcher(domain);
+        return matcher.matches();
     }
 }
