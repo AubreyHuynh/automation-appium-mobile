@@ -1,6 +1,6 @@
 package Java.Labs.lab_7_2;
 
-public class Main {
+public class CalculatorRaceSpeed {
     public static void main(String[] args) {
         // Create objects for each animal type
         Animal horse = new Horse();
