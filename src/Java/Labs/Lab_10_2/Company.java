@@ -6,11 +6,11 @@ import java.util.List;
 public class Company {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        // Add 3 Full Time Employees with variable salaries
+
         employees.add(new FullTimeEmployee(65000));
         employees.add(new FullTimeEmployee(54000));
         employees.add(new FullTimeEmployee(52000));
-        // Add 2 Contract Employees with variable salaries
+
         employees.add(new ContractEmployee(42000));
         employees.add(new ContractEmployee(45000));
 
