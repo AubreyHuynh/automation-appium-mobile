@@ -1,6 +1,6 @@
 package Java.Labs.Lab_10_1;
 
-class Race {
+public class Race {
     public static Animal determineWinner(Animal[] animals) {
         Animal winner = null;
         int maxSpeed = 0;

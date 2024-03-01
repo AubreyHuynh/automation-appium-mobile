@@ -14,6 +14,7 @@ class Tiger extends Animal {
         public TigerBuilder() {
             this.name("Tiger");
             this.speed(100);
+            this.flyable(false);
         }
 
         @Override

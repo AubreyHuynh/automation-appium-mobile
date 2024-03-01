@@ -14,6 +14,7 @@ class Horse extends Animal {
         public HorseBuilder() {
             this.name("Horse");
             this.speed(75);
+            this.flyable(false);
         }
 
         @Override
